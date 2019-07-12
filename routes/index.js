@@ -20,6 +20,7 @@ router.get('/', function(req, res, next) {
   prodheading1 : "Shop",
   prodheading2 : "Amazon",
   prodheading3 : "Hidden Deals",
+  prodheading4 : "Try These Amazon Services",
 prodheading5 : "Amazon's 'Top Ranked' Daily Deals" });
 });
 router.get('/coupons', function(req, res, next) {

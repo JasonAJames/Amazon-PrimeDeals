@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
   HeaderLink3 : "Give-Aways",
   HeaderLink4 : "Business Deals",
   welcome : "Welcome to",
-  pageheading : "Amazon Prime Day Deals",
+  pageheading : "Amazon Prime Deals",
   pagedescription1 : `Did you know Amazon is full of surprises?`,
   pagedescription2 : `We'll show you the hidden, unknown, and undisclosed deals...`,
   pagedescription3 : `So you can get the best out of your Amazon Shopping Experience`,

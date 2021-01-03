@@ -1,0 +1,12 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar style="background-color:  darkorange;">
+        <Label text="Lightning Amazon Prime Deals"></Label>
+    </ActionBar>
+
+<GridLayout class="page">
+    <WebView src="https://amazon-primedeals.herokuapp.com/" height="100%" scrollable="true">LOADING Lightning Deals...</WebView>
+</GridLayout>
+</Page>

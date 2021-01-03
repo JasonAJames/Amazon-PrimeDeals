@@ -24,7 +24,8 @@ router.get('/', function(req, res, next) {
   prodheading2 : "Amazon",
   prodheading3 : "Hidden Deals",
   prodheading4 : "Try These Amazon Services",
-prodheading5 : "Amazon's 'Top Ranked' Daily Deals" });
+prodheading5 : "Amazon's 'Top Ranked' Daily Deals",
+prodheading6 : "Cryptocurrency Deals" });
 });
 router.get('/coupons', function(req, res, next) {
   res.render('coupons', { title: 'Amazon Coupons',

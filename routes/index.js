@@ -48,7 +48,6 @@ prodheading5 : "Amazon's 'Top Ranked' Daily Deals",
 prodheading6 : "Cryptocurrency Deals",
 prodheading7 : "Amazon Grocery Deals"  });
  });
-});
 router.get('/coupons', function(req, res, next) {
   res.render('coupons', { title: 'Amazon Coupons',
   CompanyName : "Amazon Prime Deals",

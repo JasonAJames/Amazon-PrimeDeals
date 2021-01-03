@@ -30,7 +30,7 @@ prodheading7 : "Amazon Grocery Deals"  });
 });
 router.get('/grocery', function(req, res, next) {
   res.render('grocery', { title: 'Amazon Grocery',
-  CompanyName : "Amazon Grocery Deals",
+  CompanyName : "Amazon Prime Deals",
   HeaderLink1 : "Daily Deals",
   HeaderLink2 : "Coupons",
   HeaderLink3 : "Give-Aways",
@@ -38,9 +38,9 @@ router.get('/grocery', function(req, res, next) {
   welcome : "Welcome to",
   pageheading : "Amazon Grocery Deals",
   pagedescription1 : `Did you know Amazon is full of surprises?`,
-  pagedescription2 : `We'll show you the hidden, unknown, and undisclosed deals...`,
+  pagedescription2 : `We'll show you the hidden, unknown, and undisclosed grocery deals...`,
   pagedescription3 : `So you can get the best out of your Amazon Shopping Experience`,
-  prodheading1 : "Shop",
+  prodheading1 : "Dairy Products",
   prodheading2 : "Amazon",
   prodheading3 : "Hidden Deals",
   prodheading4 : "Try These Amazon Services",

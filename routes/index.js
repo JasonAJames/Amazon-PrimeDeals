@@ -42,7 +42,7 @@ router.get('/grocery', function(req, res, next) {
   pagedescription3 : `So you can get the best out of your Amazon Shopping Experience`,
   prodheading1 : "Deals on Dairy Products",
   prodheading2 : "Deals on Bread Products",
-  prodheading3 : "Hidden Deals",
+  prodheading3 : "Deals on Fruit Products",
   prodheading4 : "Try These Amazon Services",
 prodheading5 : "Amazon's 'Top Ranked' Daily Deals",
 prodheading6 : "Cryptocurrency Deals",

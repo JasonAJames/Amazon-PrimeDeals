@@ -3,7 +3,7 @@
 <a class="p-2 text-dark" href="/"><i class="fa fa-amazon" aria-hidden="true"></i> {{CompanyName}}</a></h5>
     <nav class="my-2 my-md-0 mr-md-3">
       <input [(ngModel)]="searchterm" id="searchterm" name="searchterm" placeholder="Enter product...">&nbsp;
-      <a href="https://www.amazon.com/s/ref=as_li_ss_tl?k=" + {{searchterm}} + "&i=grocery&ref=nb_sb_noss_1&linkCode=ll2&tag=product-review-spec-20&linkId=cc10832a0b7381f423723c93705760dc&language=en_US" class="btn btn-primary" target="_blank">SEARCH</a>
+      <a href="https://www.amazon.com/s/ref=as_li_ss_tl?k=" + {{searchterm}} + "&i=grocery&tag=product-review-spec-20&linkId=cc10832a0b7381f423723c93705760dc&language=en_US" class="btn btn-primary" target="_blank">SEARCH</a>
       <a class="p-2 text-dark" href="/"><img src="https://s3-us-west-2.amazonaws.com/amazonprimedeals/ticket-amazon-primedeals_DAILYDEALS.png" alt="Amazon Daily Deals" /></a>
       <a class="p-2 text-dark" href="/coupons"><img src="https://s3-us-west-2.amazonaws.com/amazonprimedeals/ticket-amazon-primedeals_COUPONS.png" alt="Amazon Coupons" /></a>
       <a class="p-2 text-dark" href="/giveaways"><img src="https://s3-us-west-2.amazonaws.com/amazonprimedeals/ticket-amazon-primedeals_giveaways.png" alt="Amazon GiveAways" /></a>
@@ -136,46 +136,7 @@ amzn_assoc_title = "";
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
 <br/><br/>
         </div>
-
-
   <!-- end main content area -->
-
-<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
-        <span>To Enjoy Amazon's Unfound &amp; Unspoken Awesome Deals showcased on<br/><strong>Amazon-PrimeDeals.com</strong></span>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fa fa-user prefix grey-text"></i>
-          <input type="text" id="orangeForm-name" class="form-control validate" required>
-          <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
-        </div>
-        <div class="md-form mb-5">
-          <i class="fa fa-envelope prefix grey-text"></i>
-          <input type="email" id="orangeForm-email" class="form-control validate" required>
-          <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
-        </div>
-
-        <div class="md-form mb-4">
-          <i class="fa fa-lock prefix grey-text"></i>
-          <input type="password" id="orangeForm-pass" class="form-control validate" required>
-          <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-deep-orange">Sign up</button>
-      </div>
-    </div>
-  </div>
-</div>
 
   <!-- footer start -->
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
